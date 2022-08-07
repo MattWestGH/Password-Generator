@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+}
+.div-wrap{
+
+    width: 700px;
+}
+body{
+    background-color: #1F2937;
+}
+#pass-text-one{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+#pass-text-two{
+    color: #34D399;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+#pass-text-three{
+    color: #9CA3AF;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#pass-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#pass-one{
+    background: #374151;
+    width: 300px;
+    height: 50px;
+    color: #34D399;
+    border-radius: 5px;
+    text-align: center;
+}
+#pass-two{
+    background: #374151;
+    width: 300px;
+    height: 50px;
+    color: #34D399;
+    border-radius: 5px;
+    text-align: center;
+}
+#passTextOne{
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#passTextTwo{
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#button{
+    background-color: #34D399;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 45px;
+    vertical-align: middle;
+}
+#button:active {
+   transform: translateY(4px);
+   cursor: pointer;
+  }
